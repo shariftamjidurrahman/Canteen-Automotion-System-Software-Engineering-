@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body
+{
+	margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.navbar 
+{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+  background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.navbar-brand img
+{
+  height:  2rem;
+}
+
+.navbar-nav li
+{
+  padding-right: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link
+{
+  color: white;
+  padding-top: .6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #1ebba3;
+}
+
+.icon2
+{
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+
+.about-1
+{
+  padding-bottom: 2%;
+}
+
+.carousel-item
+{
+  height: 100vh;
+  position: cover;
+}
+
+
+.color-code
+{
+  color: #1ebca4;
+} 
+
+.carousel-caption h1
+{
+  text-shadow: .1rem .1rem .5rem black;
+}
+
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color: #000;
+}
+
+.narrow img
+{
+  height: 20rem;
+}
+
+.btn-md {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.1rem;
+  margin: 1rem;
+}
+
+.about_text
+{
+  color: #000;
+  padding-top: 2%;
+  padding-bottom: 6%;
+}
+
+.carousel-caption
+{
+  position: absolute;
+  top: 30%;
+}
+
+.carousel-caption h1
+{
+  font-size: 60px;
+}
+
+
+.work-history img
+{
+  max-width: 100%;
+}
+
+.card-body
+{
+  height: .1rem;
+
+}
+
+.card-img-top
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top img
+{
+  height: 10px;
+  width: 10px;
+}
+
+.Card
+{
+  padding-left: 15%;
+}
+
+.skills_name
+{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.badge
+{
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.project_name
+{
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.badge-tx
+{
+  padding-right: 38%;
+  padding-left: 38%;
+}
+
+.head_line
+{
+  padding-top: 6%;
+  padding-bottom: 3%;
+}
+
+.badge-about
+{
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.badge-tx1
+{
+  padding-right: 35%;
+  padding-left: 35%;
+}
+
+.badge-tx2
+{
+  padding-right: 38%;
+  padding-left: 38%;
+}
+
+.badge-tx3
+{
+  padding-right: 40%;
+  padding-left: 40%;
+}
+
+.inner-1 img
+{
+  transition: all .5s ease;
+}
+
+.inner-1:hover img
+{
+  transform: scale(1.085);
+}
+
+.card .front
+{
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 1s;
+}
+
+.card:hover .front
+{
+  transform: rotateX(-180deg);
+}
+
+.card .back
+{
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 1s;
+}
+
+.card:hover .back
+{
+  transform: rotateX(0deg);
+}
+
+#cas
+{
+  background-image: url(../img/bg/about_back.png);
+}
+
+.skill_container
+{
+  padding-top: 3%;
+  padding-bottom: 10%;
+}
+
+.container
+{
+  padding-bottom: 2%;
+}
+
+
+.inner-about img
+{
+  transition: all .5s ease;
+}
+
+.inner-about:hover img
+{
+  transform: scale(1.2) rotate(-4.3deg);
+}
+
+.container_projects
+{
+  padding-bottom: 5%;
+}
+
+.contact
+{
+  padding-top: 2%;
+}
